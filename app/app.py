@@ -80,6 +80,6 @@ for key, value in data.items():
 
 
             if col_num == 3:
-                col_num = 0
+                col_num = 1
             else:
                 col_num += 1
