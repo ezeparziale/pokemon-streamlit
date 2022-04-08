@@ -22,7 +22,7 @@ st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Internationa
 
 @st.cache
 def load_data():
-    f = open("app\\data\\data.json")
+    f = open("app/data/data.json")
     return json.load(f)
 
 @st.cache
