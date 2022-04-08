@@ -18,7 +18,7 @@ with open("./app/static/css/style.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 
-st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png")
+st.image("./app/static/img/logo.png")
 
 @st.cache
 def load_data():
